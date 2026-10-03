@@ -1,5 +1,7 @@
 # DRVCAM
 
+**English** | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
+
 **A virtual camera for compatible rooted Android devices.** Choose a photo or video and present it as the camera feed of the apps you select, with live playback and framing controls.
 
 [![Latest release](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=latest%20release)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
