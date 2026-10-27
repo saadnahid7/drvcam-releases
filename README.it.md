@@ -10,7 +10,7 @@
 [![Root necessario](https://img.shields.io/badge/root-necessario-critical)](#requisiti)
 [![Licenza](https://img.shields.io/badge/licenza-proprietaria-lightgrey)](#licenza)
 
-> **Versione alpha.** DRVCAM è in sviluppo attivo e il comportamento può variare da dispositivo a dispositivo.
+> **Versione beta.** DRVCAM è in sviluppo attivo e il comportamento può variare da dispositivo a dispositivo.
 
 Questo repository ospita solo **i download di DRVCAM** — nessun codice sorgente. Pagina del prodotto, prezzi e documentazione completa: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
 
@@ -42,7 +42,7 @@ Questo repository ospita solo **i download di DRVCAM** — nessun codice sorgent
 ## Cosa fa
 
 - Usa una foto o un video che importi come sorgente della fotocamera di un'app che scegli, dove dispositivo, API fotocamera e app lo consentono.
-- Ti permette di scegliere le app di destinazione e regolare riproduzione, rotazione, effetto specchio, zoom e inquadratura. Una sorgente Main e due preset possono essere salvati e scambiati.
+- Ti permette di scegliere le app di destinazione e regolare riproduzione, rotazione, effetto specchio, zoom e inquadratura. Una sorgente Main e quattro preset possono essere salvati e scambiati.
 - Ti permette di far passare una destinazione configurata tra l'immagine virtuale e la fotocamera fisica reale. Alcune app devono riaprire la fotocamera prima che il cambio sia visibile; DRVCAM te lo segnala quando accade.
 - Offre un controller mobile opzionale che resta sopra l'app in uso (richiede il permesso di sovrapposizione).
 - Lascia invariato il microfono reale — DRVCAM non sostituisce né elabora l'audio.
@@ -57,10 +57,10 @@ Questo repository ospita solo **i download di DRVCAM** — nessun codice sorgent
 
 | Build | Android | Destinazione |
 |---|---|---|
-| `DRVCAM-modern-phone.apk` | da 12 a 17 | Telefono/tablet, arm64 |
-| `DRVCAM-legacy-phone.apk` | da 9 a 11 | Telefono/tablet, arm64 |
-| `DRVCAM-modern-emulator.apk` | da 12 a 17 | Emulatore, x86_64 |
-| `DRVCAM-legacy-emulator.apk` | da 9 a 11 | Emulatore, x86_64 |
+| `DRVCAM-modern-phone.apk` | da 9 a 17 | Telefono/tablet, arm64 |
+| `DRVCAM-legacy-phone.apk` | da 9 a 17 | Telefono/tablet, arm64 |
+| `DRVCAM-modern-emulator.apk` | da 9 a 17 | Emulatore, x86_64 |
+| `DRVCAM-legacy-emulator.apk` | da 9 a 17 | Emulatore, x86_64 |
 
 Scarica la build adatta al tuo dispositivo dall'**[ultima versione](https://github.com/saadnahid7/drvcam-releases/releases/latest)**. Ogni versione include un file `SHA256SUMS.txt`: verifica il download prima di installare. Le stesse build e un selettore interattivo sono disponibili anche sulla [pagina del prodotto](https://www.droidrooter.com/drvcam/).
 
@@ -110,7 +110,7 @@ Non è pubblicato qui. Questo repository distribuisce solo binari di versione fi
 
 ## Esclusione di responsabilità
 
-DRVCAM è software alpha, fornito "così com'è" senza garanzie di alcun tipo. Eseguire il root di un dispositivo e installare un framework senza sistema sono azioni che compi a tuo rischio e possono incidere sulla garanzia o sulla stabilità del dispositivo.
+DRVCAM è software beta, fornito "così com'è" senza garanzie di alcun tipo. Eseguire il root di un dispositivo e installare un framework senza sistema sono azioni che compi a tuo rischio e possono incidere sulla garanzia o sulla stabilità del dispositivo.
 
 Sei l'unico responsabile dei contenuti che utilizzi, delle applicazioni con cui usi DRVCAM e del rispetto delle leggi e dei termini a te applicabili. Lo sviluppatore non è responsabile di alcun utilizzo illegale, non autorizzato o altrimenti improprio di questo software.
 
