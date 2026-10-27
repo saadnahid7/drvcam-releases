@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | **日本語** | [简体中文](README.zh-hans.md)
-
 **root化した対応Android端末向けの仮想カメラです。** 写真や動画を選び、選択したアプリのカメラ映像として表示できます。ライブ再生と画角の操作に対応しています。
+
+[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | **日本語** | [简体中文](README.zh-hans.md)
 
 [![最新リリース](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=最新リリース)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
 [![ダウンロード数](https://img.shields.io/github/downloads/saadnahid7/drvcam-releases/total)](https://github.com/saadnahid7/drvcam-releases/releases)
@@ -10,9 +14,12 @@
 [![root必須](https://img.shields.io/badge/root-必須-critical)](#動作要件)
 [![ライセンス](https://img.shields.io/badge/ライセンス-proprietary-lightgrey)](#ライセンス)
 
-> **ベータ版。** DRVCAMは開発が続いており、動作は端末によって異なる場合があります。
+**[⬇ ダウンロード](#ダウンロード)** &nbsp;·&nbsp; **[📦 インストール](#インストール)** &nbsp;·&nbsp; **[💬 サポート](#サポート)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-このリポジトリにあるのは **DRVCAMのダウンロードファイルのみ** です。ソースコードは含まれません。製品ページ、料金、詳しいドキュメントはこちら：**[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**。
+</div>
+
+> [!IMPORTANT]
+> **ベータ版。** DRVCAMは開発が続いており、動作は端末によって異なる場合があります。 このリポジトリにあるのは **DRVCAMのダウンロードファイルのみ** です。ソースコードは含まれません。製品ページ、料金、詳しいドキュメントはこちら：**[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**。
 
 ## 目次
 
@@ -31,13 +38,16 @@
 
 ## スクリーンショット
 
-| ホーム | フローティングコントローラー |
-|---|---|
-| ![DRVCAMのホーム画面：ライブソースのプレビュー、対象アプリの選択、メディアソース、クイック操作](screenshots/screen-home.webp) | ![カメラアプリの上に表示されたフローティングコントローラー](screenshots/screen-controller.webp) |
-
-| メディアエディター | プリセット |
-|---|---|
-| ![メディアエディター：再生、ループ、ズーム、回転の操作](screenshots/screen-editor.webp) | ![ライブラリのプリセットタブ](screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>ホーム</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>フローティングコントローラー</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>メディアエディター</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>プリセット</sub></td>
+</tr>
+</table>
+</div>
 
 ## できること
 
@@ -45,7 +55,7 @@
 - 対象アプリを選択し、再生、回転、左右反転、ズーム、画角を調整できます。Mainソースと4つのプリセットを保存して切り替えられます。
 - 設定済みの対象を、仮想映像と実際の物理カメラの間で切り替えられます。一部のアプリでは切り替えを反映するためにカメラの開き直しが必要で、その場合はDRVCAMが知らせます。
 - 使用中のアプリの上に表示される、任意のフローティングコントローラーを利用できます（オーバーレイ権限が必要です）。
-- 実際のマイクはそのままです — DRVCAMは音声の置き換えや処理を行いません。
+- 既定では実際のマイクはそのままですが、任意で動画自体の音声に切り替えることもできます。
 
 ## 動作要件
 

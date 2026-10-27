@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | **Français** | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
-
 **Une caméra virtuelle pour appareils Android rootés compatibles.** Choisissez une photo ou une vidéo et présentez-la comme flux caméra des applications que vous sélectionnez, avec lecture en direct et contrôles de cadrage.
+
+[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | **Français** | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
 
 [![Dernière version](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=derni%C3%A8re%20version)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
 [![Téléchargements](https://img.shields.io/github/downloads/saadnahid7/drvcam-releases/total)](https://github.com/saadnahid7/drvcam-releases/releases)
@@ -10,9 +14,12 @@
 [![Root requis](https://img.shields.io/badge/root-requis-critical)](#prérequis)
 [![Licence](https://img.shields.io/badge/licence-propriétaire-lightgrey)](#licence)
 
-> **Version bêta.** DRVCAM est en développement actif et le comportement peut varier selon l'appareil.
+**[⬇ Télécharger](#télécharger)** &nbsp;·&nbsp; **[📦 Installer](#installer)** &nbsp;·&nbsp; **[💬 Assistance](#assistance)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-Ce dépôt héberge uniquement **les téléchargements de DRVCAM** — aucun code source. Page produit, tarifs et documentation complète : **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+</div>
+
+> [!IMPORTANT]
+> **Version bêta.** DRVCAM est en développement actif et le comportement peut varier selon l'appareil. Ce dépôt héberge uniquement **les téléchargements de DRVCAM** — aucun code source. Page produit, tarifs et documentation complète : **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
 
 ## Sommaire
 
@@ -31,13 +38,16 @@ Ce dépôt héberge uniquement **les téléchargements de DRVCAM** — aucun cod
 
 ## Captures d'écran
 
-| Accueil | Contrôleur flottant |
-|---|---|
-| ![Écran d'accueil de DRVCAM : aperçu de la source en direct, sélection de l'application cible, source de média et commandes rapides](screenshots/screen-home.webp) | ![Contrôleur flottant superposé à une application caméra](screenshots/screen-controller.webp) |
-
-| Éditeur de média | Presets |
-|---|---|
-| ![Éditeur de média : lecture, boucle, zoom et rotation](screenshots/screen-editor.webp) | ![Onglet presets de la bibliothèque](screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>Accueil</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>Contrôleur flottant</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>Éditeur multimédia</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>Préréglages</sub></td>
+</tr>
+</table>
+</div>
 
 ## Fonctionnement
 
@@ -45,7 +55,7 @@ Ce dépôt héberge uniquement **les téléchargements de DRVCAM** — aucun cod
 - Vous laisse choisir les applications cibles et ajuster lecture, rotation, effet miroir, zoom et cadrage. Une source Main et quatre presets peuvent être enregistrés puis permutés.
 - Vous laisse faire basculer une cible configurée entre le flux virtuel et la caméra physique réelle. Certaines applications doivent rouvrir leur caméra avant qu'un changement apparaisse ; DRVCAM vous le signale le cas échéant.
 - Propose un contrôleur flottant optionnel qui reste au-dessus de l'application utilisée (nécessite la permission de superposition).
-- Laisse le microphone réel inchangé — DRVCAM ne remplace ni ne traite l'audio.
+- Par défaut, le microphone réel reste inchangé ; vous pouvez éventuellement basculer vers l'audio propre de la vidéo.
 
 ## Prérequis
 

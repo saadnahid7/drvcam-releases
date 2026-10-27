@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | **简体中文**
-
 **适用于已 root 的兼容 Android 设备的虚拟摄像头。** 选择一张照片或一段视频，把它作为你所选应用的摄像头画面，支持实时播放和取景控制。
+
+[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | **简体中文**
 
 [![最新版本](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=最新版本)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
 [![下载量](https://img.shields.io/github/downloads/saadnahid7/drvcam-releases/total)](https://github.com/saadnahid7/drvcam-releases/releases)
@@ -10,9 +14,12 @@
 [![需要-root](https://img.shields.io/badge/需要-root-critical)](#运行要求)
 [![许可](https://img.shields.io/badge/许可-proprietary-lightgrey)](#许可)
 
-> **Beta 版本。** DRVCAM 仍在积极开发中，具体表现可能因设备而异。
+**[⬇ 下载](#下载)** &nbsp;·&nbsp; **[📦 安装](#安装)** &nbsp;·&nbsp; **[💬 支持](#支持)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-本仓库**仅提供 DRVCAM 的下载文件**，不包含源代码。产品页面、价格和完整文档：**[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**。
+</div>
+
+> [!IMPORTANT]
+> **Beta 版本。** DRVCAM 仍在积极开发中，具体表现可能因设备而异。 本仓库**仅提供 DRVCAM 的下载文件**，不包含源代码。产品页面、价格和完整文档：**[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**。
 
 ## 目录
 
@@ -31,13 +38,16 @@
 
 ## 截图
 
-| 主页 | 悬浮控制器 |
-|---|---|
-| ![DRVCAM 主界面：实时画面预览、目标应用选择、媒体来源和快捷控制](screenshots/screen-home.webp) | ![悬浮控制器叠加在摄像头应用上](screenshots/screen-controller.webp) |
-
-| 媒体编辑器 | 预设 |
-|---|---|
-| ![媒体编辑器：播放、循环、缩放和旋转控制](screenshots/screen-editor.webp) | ![媒体库的预设标签页](screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>主页</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>悬浮控制器</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>媒体编辑器</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>预设</sub></td>
+</tr>
+</table>
+</div>
 
 ## 功能说明
 
@@ -45,7 +55,7 @@
 - 让你选择目标应用，并调整播放、旋转、镜像、缩放和取景。可以保存并切换一个 Main 来源和四个预设。
 - 让你在虚拟画面和真实物理摄像头之间切换已配置的目标。部分应用需要重新打开摄像头才能显示变化，DRVCAM 会在需要时提示你。
 - 提供可选的悬浮控制器，始终显示在你正在使用的应用上方（需要悬浮窗权限）。
-- 不改变真实麦克风 — DRVCAM 不会替换或处理音频。
+- 默认情况下真实麦克风保持不变；你也可以选择切换为视频自带的音频。
 
 ## 运行要求
 

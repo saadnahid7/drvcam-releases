@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-**English** | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
-
 **A virtual camera for compatible rooted Android devices.** Choose a photo or video and present it as the camera feed of the apps you select, with live playback and framing controls.
+
+**English** | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
 
 [![Latest release](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=latest%20release)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/saadnahid7/drvcam-releases/total)](https://github.com/saadnahid7/drvcam-releases/releases)
@@ -10,9 +14,12 @@
 [![Root required](https://img.shields.io/badge/root-required-critical)](#requirements)
 [![License](https://img.shields.io/badge/license-proprietary-lightgrey)](#license)
 
-> **Beta release.** DRVCAM is under active development and behaviour can vary by device.
+**[⬇ Download](#download)** &nbsp;·&nbsp; **[📦 Install](#install)** &nbsp;·&nbsp; **[💬 Support](#support)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-This repository hosts DRVCAM's **release downloads only** — no source code. Product page, pricing and full documentation: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+</div>
+
+> [!IMPORTANT]
+> **Beta release.** DRVCAM is under active development and behaviour can vary by device. This repository hosts DRVCAM's **release downloads only** — no source code. Product page, pricing and full documentation: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
 
 ## Table of contents
 
@@ -31,13 +38,16 @@ This repository hosts DRVCAM's **release downloads only** — no source code. Pr
 
 ## Screenshots
 
-| Home | Floating Controller |
-|---|---|
-| ![DRVCAM Home screen: live source preview, target app selection, media source and quick controls](screenshots/screen-home.webp) | ![Floating Controller overlaid on a camera app](screenshots/screen-controller.webp) |
-
-| Media editor | Presets |
-|---|---|
-| ![Media editor: playback, loop, zoom and rotation controls](screenshots/screen-editor.webp) | ![Library presets tab](screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>Home</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>Floating Controller</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>Media editor</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>Presets</sub></td>
+</tr>
+</table>
+</div>
 
 ## What it does
 
@@ -45,7 +55,7 @@ This repository hosts DRVCAM's **release downloads only** — no source code. Pr
 - Lets you choose the target apps and adjust playback, rotation, mirror, zoom and framing. A Main source and four presets can be saved and switched.
 - Lets you switch a configured target between the virtual feed and the real physical camera. Some apps need their camera reopened before a change appears; DRVCAM tells you when that is the case.
 - Offers an optional floating controller that stays above the app you are using (needs the overlay permission).
-- Leaves the real microphone unchanged — DRVCAM does not replace or process audio.
+- By default the real microphone is left unchanged; you can optionally switch to the video's own audio instead.
 
 ## Requirements
 

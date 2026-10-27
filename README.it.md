@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | **Italiano** | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
-
 **Una fotocamera virtuale per dispositivi Android compatibili con root.** Scegli una foto o un video e presentalo come immagine della fotocamera delle app che selezioni, con riproduzione dal vivo e controlli di inquadratura.
+
+[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | **Italiano** | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
 
 [![Ultima versione](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=ultima%20versione)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
 [![Download](https://img.shields.io/github/downloads/saadnahid7/drvcam-releases/total)](https://github.com/saadnahid7/drvcam-releases/releases)
@@ -10,9 +14,12 @@
 [![Root necessario](https://img.shields.io/badge/root-necessario-critical)](#requisiti)
 [![Licenza](https://img.shields.io/badge/licenza-proprietaria-lightgrey)](#licenza)
 
-> **Versione beta.** DRVCAM è in sviluppo attivo e il comportamento può variare da dispositivo a dispositivo.
+**[⬇ Scaricare](#scaricare)** &nbsp;·&nbsp; **[📦 Installare](#installare)** &nbsp;·&nbsp; **[💬 Assistenza](#assistenza)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-Questo repository ospita solo **i download di DRVCAM** — nessun codice sorgente. Pagina del prodotto, prezzi e documentazione completa: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+</div>
+
+> [!IMPORTANT]
+> **Versione beta.** DRVCAM è in sviluppo attivo e il comportamento può variare da dispositivo a dispositivo. Questo repository ospita solo **i download di DRVCAM** — nessun codice sorgente. Pagina del prodotto, prezzi e documentazione completa: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
 
 ## Indice
 
@@ -31,13 +38,16 @@ Questo repository ospita solo **i download di DRVCAM** — nessun codice sorgent
 
 ## Screenshot
 
-| Home | Controller mobile |
-|---|---|
-| ![Schermata Home di DRVCAM: anteprima della sorgente dal vivo, selezione dell'app di destinazione, sorgente multimediale e controlli rapidi](screenshots/screen-home.webp) | ![Controller mobile sovrapposto a un'app fotocamera](screenshots/screen-controller.webp) |
-
-| Editor multimediale | Preset |
-|---|---|
-| ![Editor multimediale: controlli di riproduzione, loop, zoom e rotazione](screenshots/screen-editor.webp) | ![Scheda preset della libreria](screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>Home</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>Controller flottante</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>Editor multimediale</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>Preset</sub></td>
+</tr>
+</table>
+</div>
 
 ## Cosa fa
 
@@ -45,7 +55,7 @@ Questo repository ospita solo **i download di DRVCAM** — nessun codice sorgent
 - Ti permette di scegliere le app di destinazione e regolare riproduzione, rotazione, effetto specchio, zoom e inquadratura. Una sorgente Main e quattro preset possono essere salvati e scambiati.
 - Ti permette di far passare una destinazione configurata tra l'immagine virtuale e la fotocamera fisica reale. Alcune app devono riaprire la fotocamera prima che il cambio sia visibile; DRVCAM te lo segnala quando accade.
 - Offre un controller mobile opzionale che resta sopra l'app in uso (richiede il permesso di sovrapposizione).
-- Lascia invariato il microfono reale — DRVCAM non sostituisce né elabora l'audio.
+- Per impostazione predefinita il microfono reale resta invariato; puoi facoltativamente passare all'audio proprio del video.
 
 ## Requisiti
 

@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | **Español** | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
-
 **Una cámara virtual para dispositivos Android compatibles con root.** Elige una foto o un vídeo y preséntalo como la señal de cámara de las apps que elijas, con reproducción en directo y controles de encuadre.
+
+[English](README.md) | **Español** | [العربية](README.ar.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
 
 [![Última versión](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=%C3%BAltima%20versi%C3%B3n)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
 [![Descargas](https://img.shields.io/github/downloads/saadnahid7/drvcam-releases/total)](https://github.com/saadnahid7/drvcam-releases/releases)
@@ -10,9 +14,12 @@
 [![Root necesario](https://img.shields.io/badge/root-necesario-critical)](#requisitos)
 [![Licencia](https://img.shields.io/badge/licencia-propietaria-lightgrey)](#licencia)
 
-> **Versión beta.** DRVCAM está en desarrollo activo y el comportamiento puede variar según el dispositivo.
+**[⬇ Descargar](#descargar)** &nbsp;·&nbsp; **[📦 Instalar](#instalar)** &nbsp;·&nbsp; **[💬 Soporte](#soporte)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-Este repositorio aloja únicamente **las descargas de DRVCAM** — sin código fuente. Página del producto, precios y documentación completa: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+</div>
+
+> [!IMPORTANT]
+> **Versión beta.** DRVCAM está en desarrollo activo y el comportamiento puede variar según el dispositivo. Este repositorio aloja únicamente **las descargas de DRVCAM** — sin código fuente. Página del producto, precios y documentación completa: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
 
 ## Índice
 
@@ -31,13 +38,16 @@ Este repositorio aloja únicamente **las descargas de DRVCAM** — sin código f
 
 ## Capturas de pantalla
 
-| Inicio | Controlador flotante |
-|---|---|
-| ![Pantalla de inicio de DRVCAM: vista previa de la fuente en directo, selección de app de destino, fuente de medios y controles rápidos](screenshots/screen-home.webp) | ![Controlador flotante sobre una app de cámara](screenshots/screen-controller.webp) |
-
-| Editor de medios | Presets |
-|---|---|
-| ![Editor de medios: controles de reproducción, bucle, zoom y rotación](screenshots/screen-editor.webp) | ![Pestaña de presets de la biblioteca](screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>Inicio</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>Controlador flotante</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>Editor de medios</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>Preajustes</sub></td>
+</tr>
+</table>
+</div>
 
 ## Qué hace
 
@@ -45,7 +55,7 @@ Este repositorio aloja únicamente **las descargas de DRVCAM** — sin código f
 - Te deja elegir las apps de destino y ajustar reproducción, rotación, reflejo, zoom y encuadre. Puedes guardar y cambiar entre una fuente Main y cuatro presets.
 - Te deja alternar un destino configurado entre la señal virtual y la cámara física real. Algunas apps necesitan que se reabra su cámara antes de que el cambio se note; DRVCAM te avisa cuando es el caso.
 - Ofrece un controlador flotante opcional que permanece sobre la app que utilizas (necesita el permiso de superposición).
-- No modifica el micrófono real — DRVCAM no sustituye ni procesa el audio.
+- De forma predeterminada, el micrófono real no se modifica; opcionalmente puedes cambiar al audio propio del vídeo.
 
 ## Requisitos
 

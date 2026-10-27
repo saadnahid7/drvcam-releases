@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" alt="DRVCAM logo">
+
 # DRVCAM
 
-[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | **Deutsch** | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
-
 **Eine virtuelle Kamera für kompatible, gerootete Android-Geräte.** Wähle ein Foto oder Video aus und nutze es als Kamerabild der Apps deiner Wahl – mit Live-Wiedergabe und Bildausschnitt-Steuerung.
+
+[English](README.md) | [Español](README.es.md) | [العربية](README.ar.md) | **Deutsch** | [Français](README.fr.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [简体中文](README.zh-hans.md)
 
 [![Neueste Version](https://img.shields.io/github/v/release/saadnahid7/drvcam-releases?label=neueste%20version)](https://github.com/saadnahid7/drvcam-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/saadnahid7/drvcam-releases/total)](https://github.com/saadnahid7/drvcam-releases/releases)
@@ -10,9 +14,12 @@
 [![Root erforderlich](https://img.shields.io/badge/root-erforderlich-critical)](#voraussetzungen)
 [![Lizenz](https://img.shields.io/badge/lizenz-proprietär-lightgrey)](#lizenz)
 
-> **Beta-Version.** DRVCAM wird aktiv weiterentwickelt, und das Verhalten kann je nach Gerät variieren.
+**[⬇ Herunterladen](#herunterladen)** &nbsp;·&nbsp; **[📦 Installieren](#installieren)** &nbsp;·&nbsp; **[💬 Support](#support)** &nbsp;·&nbsp; **[🌐 droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**
 
-Dieses Repository enthält ausschließlich **die Download-Dateien von DRVCAM** – keinen Quellcode. Produktseite, Preise und vollständige Dokumentation: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
+</div>
+
+> [!IMPORTANT]
+> **Beta-Version.** DRVCAM wird aktiv weiterentwickelt, und das Verhalten kann je nach Gerät variieren. Dieses Repository enthält ausschließlich **die Download-Dateien von DRVCAM** – keinen Quellcode. Produktseite, Preise und vollständige Dokumentation: **[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**.
 
 ## Inhaltsverzeichnis
 
@@ -31,13 +38,16 @@ Dieses Repository enthält ausschließlich **die Download-Dateien von DRVCAM** �
 
 ## Screenshots
 
-| Start | Schwebende Steuerung |
-|---|---|
-| ![DRVCAM-Startbildschirm: Vorschau der Live-Quelle, Auswahl der Ziel-App, Medienquelle und Schnellzugriff](screenshots/screen-home.webp) | ![Schwebende Steuerung über einer Kamera-App](screenshots/screen-controller.webp) |
-
-| Medien-Editor | Presets |
-|---|---|
-| ![Medien-Editor: Wiedergabe, Schleife, Zoom und Drehung](screenshots/screen-editor.webp) | ![Presets-Tab der Bibliothek](screenshots/screen-presets.webp) |
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="screenshots/screen-home.webp" width="200"><br><sub>Start</sub></td>
+<td align="center"><img src="screenshots/screen-controller.webp" width="200"><br><sub>Schwebender Controller</sub></td>
+<td align="center"><img src="screenshots/screen-editor.webp" width="200"><br><sub>Medien-Editor</sub></td>
+<td align="center"><img src="screenshots/screen-presets.webp" width="200"><br><sub>Presets</sub></td>
+</tr>
+</table>
+</div>
 
 ## Was es leistet
 
@@ -45,7 +55,7 @@ Dieses Repository enthält ausschließlich **die Download-Dateien von DRVCAM** �
 - Du wählst die Ziel-Apps aus und passt Wiedergabe, Drehung, Spiegelung, Zoom und Bildausschnitt an. Eine Main-Quelle und vier Presets lassen sich speichern und wechseln.
 - Du kannst ein eingerichtetes Ziel zwischen virtuellem Bild und echter physischer Kamera umschalten. Manche Apps müssen ihre Kamera neu öffnen, bevor eine Änderung sichtbar wird; DRVCAM weist dich darauf hin.
 - Bietet eine optionale schwebende Steuerung, die über der genutzten App bleibt (benötigt die Overlay-Berechtigung).
-- Lässt das echte Mikrofon unverändert – DRVCAM ersetzt oder verarbeitet kein Audio.
+- Standardmäßig bleibt das echte Mikrofon unverändert; optional kannst du auf den eigenen Ton des Videos umschalten.
 
 ## Voraussetzungen
 
