@@ -57,10 +57,8 @@
 
 | 构建版本 | Android | 适用对象 |
 |---|---|---|
-| `DRVCAM-modern-phone.apk` | 9 至 17 | 手机/平板，arm64 |
-| `DRVCAM-legacy-phone.apk` | 9 至 17 | 手机/平板，arm64 |
-| `DRVCAM-modern-emulator.apk` | 9 至 17 | 模拟器，x86_64 |
-| `DRVCAM-legacy-emulator.apk` | 9 至 17 | 模拟器，x86_64 |
+| `DRVCAM-phone.apk` | 9 至 17 | 手机/平板，arm64 |
+| `DRVCAM-emulator.apk` | 9 至 17 | 模拟器，x86_64 |
 
 请从**[最新版本](https://github.com/saadnahid7/drvcam-releases/releases/latest)**中获取适合你设备的构建版本。每个版本都附带 `SHA256SUMS.txt`——安装前请先校验下载文件。[产品页面](https://www.droidrooter.com/drvcam/)上也提供相同的构建版本及交互式选择工具。
 

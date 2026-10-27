@@ -57,10 +57,8 @@ Dieses Repository enthält ausschließlich **die Download-Dateien von DRVCAM** �
 
 | Build | Android | Zielgerät |
 |---|---|---|
-| `DRVCAM-modern-phone.apk` | 9 bis 17 | Smartphone/Tablet, arm64 |
-| `DRVCAM-legacy-phone.apk` | 9 bis 17 | Smartphone/Tablet, arm64 |
-| `DRVCAM-modern-emulator.apk` | 9 bis 17 | Emulator, x86_64 |
-| `DRVCAM-legacy-emulator.apk` | 9 bis 17 | Emulator, x86_64 |
+| `DRVCAM-phone.apk` | 9 bis 17 | Smartphone/Tablet, arm64 |
+| `DRVCAM-emulator.apk` | 9 bis 17 | Emulator, x86_64 |
 
 Lade den passenden Build für dein Gerät aus der **[neuesten Version](https://github.com/saadnahid7/drvcam-releases/releases/latest)** herunter. Jede Version enthält eine `SHA256SUMS.txt` – prüfe deinen Download, bevor du installierst. Dieselben Builds und ein interaktiver Auswahlassistent finden sich auch auf der [Produktseite](https://www.droidrooter.com/drvcam/).
 

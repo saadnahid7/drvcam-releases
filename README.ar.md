@@ -59,10 +59,8 @@
 
 | الحزمة | Android | الجهاز المستهدف |
 |---|---|---|
-| `DRVCAM-modern-phone.apk` | 9 إلى 17 | هاتف/جهاز لوحي، arm64 |
-| `DRVCAM-legacy-phone.apk` | 9 إلى 17 | هاتف/جهاز لوحي، arm64 |
-| `DRVCAM-modern-emulator.apk` | 9 إلى 17 | محاكٍ، x86_64 |
-| `DRVCAM-legacy-emulator.apk` | 9 إلى 17 | محاكٍ، x86_64 |
+| `DRVCAM-phone.apk` | 9 إلى 17 | هاتف/جهاز لوحي، arm64 |
+| `DRVCAM-emulator.apk` | 9 إلى 17 | محاكٍ، x86_64 |
 
 نزّل الحزمة المناسبة لجهازك من **[أحدث إصدار](https://github.com/saadnahid7/drvcam-releases/releases/latest)**. يتضمن كل إصدار ملف `SHA256SUMS.txt` — تحقق من تنزيلك قبل التثبيت. تتوفر الحزم نفسها مع أداة اختيار تفاعلية أيضاً على [صفحة المنتج](https://www.droidrooter.com/drvcam/).
 

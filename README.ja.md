@@ -57,10 +57,8 @@
 
 | ビルド | Android | 対象 |
 |---|---|---|
-| `DRVCAM-modern-phone.apk` | 9〜17 | スマートフォン・タブレット、arm64 |
-| `DRVCAM-legacy-phone.apk` | 9〜17 | スマートフォン・タブレット、arm64 |
-| `DRVCAM-modern-emulator.apk` | 9〜17 | エミュレーター、x86_64 |
-| `DRVCAM-legacy-emulator.apk` | 9〜17 | エミュレーター、x86_64 |
+| `DRVCAM-phone.apk` | 9〜17 | スマートフォン・タブレット、arm64 |
+| `DRVCAM-emulator.apk` | 9〜17 | エミュレーター、x86_64 |
 
 お使いの端末に合うビルドを**[最新リリース](https://github.com/saadnahid7/drvcam-releases/releases/latest)**から入手してください。各リリースには`SHA256SUMS.txt`が含まれます。インストール前にダウンロードを検証してください。同じビルドと対話形式の選択ツールは[製品ページ](https://www.droidrooter.com/drvcam/)にもあります。
 
