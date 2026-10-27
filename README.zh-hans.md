@@ -10,7 +10,7 @@
 [![需要-root](https://img.shields.io/badge/需要-root-critical)](#运行要求)
 [![许可](https://img.shields.io/badge/许可-proprietary-lightgrey)](#许可)
 
-> **Alpha 版本。** DRVCAM 仍在积极开发中，具体表现可能因设备而异。
+> **Beta 版本。** DRVCAM 仍在积极开发中，具体表现可能因设备而异。
 
 本仓库**仅提供 DRVCAM 的下载文件**，不包含源代码。产品页面、价格和完整文档：**[droidrooter.com/drvcam](https://www.droidrooter.com/drvcam/)**。
 
@@ -42,7 +42,7 @@
 ## 功能说明
 
 - 在设备、摄像头 API 和应用支持的范围内，将你导入的照片或视频用作所选应用的摄像头来源。
-- 让你选择目标应用，并调整播放、旋转、镜像、缩放和取景。可以保存并切换一个 Main 来源和两个预设。
+- 让你选择目标应用，并调整播放、旋转、镜像、缩放和取景。可以保存并切换一个 Main 来源和四个预设。
 - 让你在虚拟画面和真实物理摄像头之间切换已配置的目标。部分应用需要重新打开摄像头才能显示变化，DRVCAM 会在需要时提示你。
 - 提供可选的悬浮控制器，始终显示在你正在使用的应用上方（需要悬浮窗权限）。
 - 不改变真实麦克风 — DRVCAM 不会替换或处理音频。
@@ -57,10 +57,10 @@
 
 | 构建版本 | Android | 适用对象 |
 |---|---|---|
-| `DRVCAM-modern-phone.apk` | 12 至 17 | 手机/平板，arm64 |
-| `DRVCAM-legacy-phone.apk` | 9 至 11 | 手机/平板，arm64 |
-| `DRVCAM-modern-emulator.apk` | 12 至 17 | 模拟器，x86_64 |
-| `DRVCAM-legacy-emulator.apk` | 9 至 11 | 模拟器，x86_64 |
+| `DRVCAM-modern-phone.apk` | 9 至 17 | 手机/平板，arm64 |
+| `DRVCAM-legacy-phone.apk` | 9 至 17 | 手机/平板，arm64 |
+| `DRVCAM-modern-emulator.apk` | 9 至 17 | 模拟器，x86_64 |
+| `DRVCAM-legacy-emulator.apk` | 9 至 17 | 模拟器，x86_64 |
 
 请从**[最新版本](https://github.com/saadnahid7/drvcam-releases/releases/latest)**中获取适合你设备的构建版本。每个版本都附带 `SHA256SUMS.txt`——安装前请先校验下载文件。[产品页面](https://www.droidrooter.com/drvcam/)上也提供相同的构建版本及交互式选择工具。
 
@@ -110,7 +110,7 @@ DRVCAM 需要一个 DRVCAM 账号和网络连接来完成登录、设备注册�
 
 ## 免责声明
 
-DRVCAM 是 Alpha 版软件，按“现状”提供，不附带任何形式的保证。对设备进行 root 以及安装无系统签名的框架，均由你自行承担风险，可能影响设备保修或稳定性。
+DRVCAM 是 Beta 版软件，按“现状”提供，不附带任何形式的保证。对设备进行 root 以及安装无系统签名的框架，均由你自行承担风险，可能影响设备保修或稳定性。
 
 你需要自行对所使用的媒体内容、搭配 DRVCAM 使用的应用程序，以及遵守适用于你的法律和条款负责。开发者不对本软件的任何非法、未经授权或其他不当使用承担责任。
 
