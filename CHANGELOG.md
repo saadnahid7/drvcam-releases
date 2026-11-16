@@ -12,15 +12,6 @@ update older builds to the latest.
 > Earlier 0.9.4–0.9.7 alpha builds were published during early testing and are kept as
 > drafts for their download history; they are superseded by the releases below.
 
-## 1.0.6 (versionCode 89)
-
-Hotfix over 1.0.5.
-
-### Fixed
-- The app could get stuck on, or close at, the splash screen on some devices — most often
-  after upgrading from an older version. It now recovers to a Retry / sign-in screen instead
-  of hanging, so you can always get back in.
-
 ## 1.0.5 — first stable (versionCode 88)
 
 ### New
