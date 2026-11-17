@@ -20,6 +20,10 @@ Hotfix over 1.0.5.
 - The app could get stuck on, or close at, the splash screen on some devices — most often
   after upgrading from an older version. It now recovers to a Retry / sign-in screen instead
   of hanging, so you can always get back in.
+- Some phones signed you out, or sat on "checking", after a restart — most often on rooted
+  devices running a secure-keystore spoofing module, where the keystore is briefly unavailable
+  right after boot. The app now stays signed in across the reboot and recovers on its own once
+  the keystore is ready, instead of locking you out until you sign in again.
 
 ## 1.0.5 — first stable (versionCode 88)
 
