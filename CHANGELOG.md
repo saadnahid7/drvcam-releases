@@ -12,6 +12,13 @@ update older builds to the latest.
 > Earlier 0.9.4–0.9.7 alpha builds were published during early testing and are kept as
 > drafts for their download history; they are superseded by the releases below.
 
+## 1.0.6.1 (versionCode 90)
+
+Minor bug fixes over 1.0.6.
+
+### Fixed
+- Minor bug fixes and stability improvements.
+
 ## 1.0.6 (versionCode 89)
 
 Hotfix over 1.0.5.
