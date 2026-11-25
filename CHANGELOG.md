@@ -12,9 +12,9 @@ update older builds to the latest.
 > Earlier 0.9.4–0.9.7 alpha builds were published during early testing and are kept as
 > drafts for their download history; they are superseded by the releases below.
 
-## 1.0.7-beta (versionCode 91)
+## 1.0.7 (versionCode 91)
 
-Beta build over 1.0.6.1.
+Stable release over 1.0.6.1.
 
 ### New
 - Larger video sources — the import size limit has been removed. Import full-length
